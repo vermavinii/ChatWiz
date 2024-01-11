@@ -35,7 +35,7 @@ function getTime() {
 
 // Gets the first message
 function firstBotMessage() {
-    let firstMessage = "How's it going?"
+    let firstMessage = "Greetings.\n I Banasthali Vidyapith's chatbot. \n Please feel free to ask your queries."
     document.getElementById("botStarterMessage").innerHTML = '<p class="botText"><span>' + firstMessage + '</span></p>';
 
     let time = getTime();

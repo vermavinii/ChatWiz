@@ -60,19 +60,70 @@ function getBotResponse(input) {
     {
         return "Welcome";
     }
+
+    //admission
+    if( input == "what is the fee structure"){
+        return "Fee structure depends on various factors and it is different for the various courses offered by Banasthali Vidyapith. <br>You can visit <a href='http://www.banasthali.org/banasthali/admissions/fees.html' target='_blank'>Fee structure</a>.";
+    }
+    if( input == "what is the fee structure?"){
+        return "Fee structure depends on various factors and it is different for the various courses offered by Banasthali Vidyapith. <br>You can visit <a href='http://www.banasthali.org/banasthali/admissions/fees.html' target='_blank'>Fee structure</a>.";
+    }
+    if( input == "fee structure"){
+        return "Fee structure depends on various factors and it is different for the various courses offered by Banasthali Vidyapith. <br>You can visit <a href='http://www.banasthali.org/banasthali/admissions/fees.html' target='_blank'>Fee structure</a>.";
+    }
+    if( input == "Fee structure"){
+        return "Fee structure depends on various factors and it is different for the various courses offered by Banasthali Vidyapith. <br>You can visit <a href='http://www.banasthali.org/banasthali/admissions/fees.html' target='_blank'>Fee structure</a>.";
+    }
+    if( input == "fee structure?"){
+        return "Fee structure depends on various factors and it is different for the various courses offered by Banasthali Vidyapith. <br>You can visit <a href='http://www.banasthali.org/banasthali/admissions/fees.html' target='_blank'>Fee structure</a>.";
+    }
+    //about banasthali
     if( input == "what do you know about banasthali vidyapith"){
-        return "I am getting trained on banasthali data, i will be happy to help you with any queries";
+        return "Banasthali is one of the five higher education institute in India meant exclusively for Women. Banasthali was founded by Smt. Ratan Shastri and Pandit Hiralal Shastri on October 6, 1935. Banasthali Vidyapith is a fully residential women's higher education institute which offers an integrated system extending from the primary to the Ph.D. level.";
+    }
+    if( input == "what do you know about banasthali "){
+        return "Banasthali is one of the five higher education institute in India meant exclusively for Women. Banasthali was founded by Smt. Ratan Shastri and Pandit Hiralal Shastri on October 6, 1935. Banasthali Vidyapith is a fully residential women's higher education institute which offers an integrated system extending from the primary to the Ph.D. level.";
     }
     if( input == "banasthali vidyapith"){
-        return "I am getting trained on banasthali data, i will be happy to help you with any queries";
+        return "Banasthali is one of the five higher education institute in India meant exclusively for Women. Banasthali was founded by Smt. Ratan Shastri and Pandit Hiralal Shastri on October 6, 1935. Banasthali Vidyapith is a fully residential women's higher education institute which offers an integrated system extending from the primary to the Ph.D. level.";
     }
     if( input == "Banasthali Vidyapith"){
-        return "I am getting trained on banasthali Vidyapith's data, i will be happy to help you with any queries";
+        return "Banasthali is one of the five higher education institute in India meant exclusively for Women. Banasthali was founded by Smt. Ratan Shastri and Pandit Hiralal Shastri on October 6, 1935. Banasthali Vidyapith is a fully residential women's higher education institute which offers an integrated system extending from the primary to the Ph.D. level.";
     }
     if( input == "Tell me something about Banasthali Vidyapith"){
         return "Banasthali is one of the five higher education institute in India meant exclusively for Women. Banasthali was founded by Smt. Ratan Shastri and Pandit Hiralal Shastri on October 6, 1935. Banasthali Vidyapith is a fully residential women's higher education institute which offers an integrated system extending from the primary to the Ph.D. level.";
     }
 
+    //contact
+    if( input == "contact details"){
+        return "You can contact Banasthali Vidyapith through <br> Admission Helpline No: 08048766655 <br>Toll Free No: 1800-270-5855 <br> For more details visit you can visit <a href='http://banasthali.org/banasthali/wcms/en/home/lower-menu/contact_us/index.html' target='_blank'>Banasthali Vidyapith</a>.";
+    }
+    if( input == "how to contact banasthali"){
+        return "You can contact Banasthali Vidyapith through <br> Admission Helpline No: 08048766655 <br>Toll Free No: 1800-270-5855 <br> For more details visit you can visit <a href='http://banasthali.org/banasthali/wcms/en/home/lower-menu/contact_us/index.html' target='_blank'>Banasthali Vidyapith</a>.";
+    }
+    if( input == "how to contact Banasthali"){
+        return "You can contact Banasthali Vidyapith through <br> Admission Helpline No: 08048766655 <br>Toll Free No: 1800-270-5855 <br> For more details visit you can visit <a href='http://banasthali.org/banasthali/wcms/en/home/lower-menu/contact_us/index.html' target='_blank'>Banasthali Vidyapith</a>.";
+    }
+    if( input == "how to contact Banasthali Vidyapith"){
+        return "You can contact Banasthali Vidyapith through <br> Admission Helpline No: 08048766655 <br>Toll Free No: 1800-270-5855 <br> For more details visit you can visit <a href='http://banasthali.org/banasthali/wcms/en/home/lower-menu/contact_us/index.html' target='_blank'>Banasthali Vidyapith</a>.";
+    }
+
+    // reach banasthali
+    if( input == "how to reach banasthali"){
+        return "Banasthali is well linked by road, rail and air. <br> ROAD LINK - 72 km. from Jaipur. 8 km. off. Jaipur-Kota Road at 65 km. stone. There are 14 buses of Rajasthan Roadways Transport Corporation at Jaipur-Banasthali route.<br> RAIL LINK - Banasthali Newai Railway station is on the Jaipur-Swaimadhopur-Mumbai broad gauge line of the Western Railway. It is equidistance from Jaipur and Swaimadhopur, 66 Kms from both. Jaipur is on Delhi-Ahmedabad Broad-guage main line of Western Railway and there are direct trains to Jaipur from Delhi-Junction, Agra Fort, Ahmedabad, Indore, Mumbai, Udaipur, Bikaner, Jodhpur, Chennai, Bangalore, Howrah etc. Swaimadhopur is on Delhi-Mumbai Central Broad gauge main line of the Western Railways. Their are direct trains to Swaimadhopur from Agra Fort also. <br>AIR LINK - Banasthali has its own licenced Air Field (09/26). Jaipur Airport is 59 km. ";
+    }
+    if( input == "how to reach banasthali vidyapith"){
+        return "Banasthali is well linked by road, rail and air. ROAD LINK - 72 km. from Jaipur. 8 km. off. Jaipur-Kota Road at 65 km. stone. There are 14 buses of Rajasthan Roadways Transport Corporation at Jaipur-Banasthali route. RAIL LINK - Banasthali Newai Railway station is on the Jaipur-Swaimadhopur-Mumbai broad gauge line of the Western Railway. It is equidistance from Jaipur and Swaimadhopur, 66 Kms from both. Jaipur is on Delhi-Ahmedabad Broad-guage main line of Western Railway and there are direct trains to Jaipur from Delhi-Junction, Agra Fort, Ahmedabad, Indore, Mumbai, Udaipur, Bikaner, Jodhpur, Chennai, Bangalore, Howrah etc. Swaimadhopur is on Delhi-Mumbai Central Broad gauge main line of the Western Railways. Their are direct trains to Swaimadhopur from Agra Fort also. AIR LINK - Banasthali has its own licenced Air Field (09/26). Jaipur Airport is 59 km. ";
+    }
+    if( input == "how to reach banasthali?"){
+        return "Banasthali is well linked by road, rail and air. ROAD LINK - 72 km. from Jaipur. 8 km. off. Jaipur-Kota Road at 65 km. stone. There are 14 buses of Rajasthan Roadways Transport Corporation at Jaipur-Banasthali route. RAIL LINK - Banasthali Newai Railway station is on the Jaipur-Swaimadhopur-Mumbai broad gauge line of the Western Railway. It is equidistance from Jaipur and Swaimadhopur, 66 Kms from both. Jaipur is on Delhi-Ahmedabad Broad-guage main line of Western Railway and there are direct trains to Jaipur from Delhi-Junction, Agra Fort, Ahmedabad, Indore, Mumbai, Udaipur, Bikaner, Jodhpur, Chennai, Bangalore, Howrah etc. Swaimadhopur is on Delhi-Mumbai Central Broad gauge main line of the Western Railways. Their are direct trains to Swaimadhopur from Agra Fort also. AIR LINK - Banasthali has its own licenced Air Field (09/26). Jaipur Airport is 59 km. ";
+    }
+    if( input == "how to reach banasthali vidyapith?"){
+        return "Banasthali is well linked by road, rail and air. ROAD LINK - 72 km. from Jaipur. 8 km. off. Jaipur-Kota Road at 65 km. stone. There are 14 buses of Rajasthan Roadways Transport Corporation at Jaipur-Banasthali route. RAIL LINK - Banasthali Newai Railway station is on the Jaipur-Swaimadhopur-Mumbai broad gauge line of the Western Railway. It is equidistance from Jaipur and Swaimadhopur, 66 Kms from both. Jaipur is on Delhi-Ahmedabad Broad-guage main line of Western Railway and there are direct trains to Jaipur from Delhi-Junction, Agra Fort, Ahmedabad, Indore, Mumbai, Udaipur, Bikaner, Jodhpur, Chennai, Bangalore, Howrah etc. Swaimadhopur is on Delhi-Mumbai Central Broad gauge main line of the Western Railways. Their are direct trains to Swaimadhopur from Agra Fort also. AIR LINK - Banasthali has its own licenced Air Field (09/26). Jaipur Airport is 59 km. ";
+    }
+    if( input == "how to reach Banasthali Vidyapith?"){
+        return "Banasthali is well linked by road, rail and air. ROAD LINK - 72 km. from Jaipur. 8 km. off. Jaipur-Kota Road at 65 km. stone. There are 14 buses of Rajasthan Roadways Transport Corporation at Jaipur-Banasthali route. RAIL LINK - Banasthali Newai Railway station is on the Jaipur-Swaimadhopur-Mumbai broad gauge line of the Western Railway. It is equidistance from Jaipur and Swaimadhopur, 66 Kms from both. Jaipur is on Delhi-Ahmedabad Broad-guage main line of Western Railway and there are direct trains to Jaipur from Delhi-Junction, Agra Fort, Ahmedabad, Indore, Mumbai, Udaipur, Bikaner, Jodhpur, Chennai, Bangalore, Howrah etc. Swaimadhopur is on Delhi-Mumbai Central Broad gauge main line of the Western Railways. Their are direct trains to Swaimadhopur from Agra Fort also. AIR LINK - Banasthali has its own licenced Air Field (09/26). Jaipur Airport is 59 km. ";
+    }
     //where is banasthali
     if(input=="where is banasthali located")
     {
@@ -125,143 +176,143 @@ function getBotResponse(input) {
     //when banasthali was founded
     if(input=="when banasthali was founded")
     {
-        return "Banasthali Vidyapith was founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in the year 1935. They established this esteemed institution with the vision of providing education that combines the best of Indian culture and thought with modern scientific knowledge. The founders aimed to create an environment that fosters the all-round development of students and promotes values such as simplicity and the wearing of khadi. Banasthali Vidyapith has since grown into a renowned educational institution, dedicated to the holistic development of its students.";
+        return "Banasthali Vidyapith was founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in the year 1935. They established this esteemed institution with the vision of providing education that combines the best of Indian culture and thought with modern scientific knowledge.";
     }
     else if(input=="When banasthali was founded")
     {
-        return "Banasthali Vidyapith was founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in the year 1935. They established this esteemed institution with the vision of providing education that combines the best of Indian culture and thought with modern scientific knowledge. The founders aimed to create an environment that fosters the all-round development of students and promotes values such as simplicity and the wearing of khadi. Banasthali Vidyapith has since grown into a renowned educational institution, dedicated to the holistic development of its students.";
+        return "Banasthali Vidyapith was founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in the year 1935. They established this esteemed institution with the vision of providing education that combines the best of Indian culture and thought with modern scientific knowledge.";
     }
     else if(input=="when banasthali was founded?")
     {
-        return "Banasthali Vidyapith was founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in the year 1935. They established this esteemed institution with the vision of providing education that combines the best of Indian culture and thought with modern scientific knowledge. The founders aimed to create an environment that fosters the all-round development of students and promotes values such as simplicity and the wearing of khadi. Banasthali Vidyapith has since grown into a renowned educational institution, dedicated to the holistic development of its students.";
+        return "Banasthali Vidyapith was founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in the year 1935. They established this esteemed institution with the vision of providing education that combines the best of Indian culture and thought with modern scientific knowledge.";
     }
     else if(input=="When banasthali was founded?")
     {
-        return "Banasthali Vidyapith was founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in the year 1935. They established this esteemed institution with the vision of providing education that combines the best of Indian culture and thought with modern scientific knowledge. The founders aimed to create an environment that fosters the all-round development of students and promotes values such as simplicity and the wearing of khadi. Banasthali Vidyapith has since grown into a renowned educational institution, dedicated to the holistic development of its students.";
+        return "Banasthali Vidyapith was founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in the year 1935. They established this esteemed institution with the vision of providing education that combines the best of Indian culture and thought with modern scientific knowledge.";
     }
     else if(input=="banasthali founded by")
     {
-        return "Banasthali Vidyapith was founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in the year 1935. They established this esteemed institution with the vision of providing education that combines the best of Indian culture and thought with modern scientific knowledge. The founders aimed to create an environment that fosters the all-round development of students and promotes values such as simplicity and the wearing of khadi. Banasthali Vidyapith has since grown into a renowned educational institution, dedicated to the holistic development of its students.";
+        return "Banasthali Vidyapith was founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in the year 1935. They established this esteemed institution with the vision of providing education that combines the best of Indian culture and thought with modern scientific knowledge.";
     }
     else if(input=="banasthali founded by?")
     {
-        return "Banasthali Vidyapith was founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in the year 1935. They established this esteemed institution with the vision of providing education that combines the best of Indian culture and thought with modern scientific knowledge. The founders aimed to create an environment that fosters the all-round development of students and promotes values such as simplicity and the wearing of khadi. Banasthali Vidyapith has since grown into a renowned educational institution, dedicated to the holistic development of its students.";
+        return "Banasthali Vidyapith was founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in the year 1935. They established this esteemed institution with the vision of providing education that combines the best of Indian culture and thought with modern scientific knowledge.";
     }
     else if(input=="Banasthali founded by?")
     {
-        return "Banasthali Vidyapith was founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in the year 1935. They established this esteemed institution with the vision of providing education that combines the best of Indian culture and thought with modern scientific knowledge. The founders aimed to create an environment that fosters the all-round development of students and promotes values such as simplicity and the wearing of khadi. Banasthali Vidyapith has since grown into a renowned educational institution, dedicated to the holistic development of its students.";
+        return "Banasthali Vidyapith was founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in the year 1935. They established this esteemed institution with the vision of providing education that combines the best of Indian culture and thought with modern scientific knowledge.";
     }
     else if(input=="Banasthali founded by")
     {
-        return "Banasthali Vidyapith was founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in the year 1935. They established this esteemed institution with the vision of providing education that combines the best of Indian culture and thought with modern scientific knowledge. The founders aimed to create an environment that fosters the all-round development of students and promotes values such as simplicity and the wearing of khadi. Banasthali Vidyapith has since grown into a renowned educational institution, dedicated to the holistic development of its students.";
+        return "Banasthali Vidyapith was founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in the year 1935. They established this esteemed institution with the vision of providing education that combines the best of Indian culture and thought with modern scientific knowledge.";
     }
     else if(input=="who founded Banasthali")
     {
-        return "Banasthali Vidyapith was founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in the year 1935. They established this esteemed institution with the vision of providing education that combines the best of Indian culture and thought with modern scientific knowledge. The founders aimed to create an environment that fosters the all-round development of students and promotes values such as simplicity and the wearing of khadi. Banasthali Vidyapith has since grown into a renowned educational institution, dedicated to the holistic development of its students.";
+        return "Banasthali Vidyapith was founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in the year 1935. They established this esteemed institution with the vision of providing education that combines the best of Indian culture and thought with modern scientific knowledge.";
     }
     else if(input=="who founded Banasthali?")
     {
-        return "Banasthali Vidyapith was founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in the year 1935. They established this esteemed institution with the vision of providing education that combines the best of Indian culture and thought with modern scientific knowledge. The founders aimed to create an environment that fosters the all-round development of students and promotes values such as simplicity and the wearing of khadi. Banasthali Vidyapith has since grown into a renowned educational institution, dedicated to the holistic development of its students.I am a good! and what about you";
+        return "Banasthali Vidyapith was founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in the year 1935. They established this esteemed institution with the vision of providing education that combines the best of Indian culture and thought with modern scientific knowledge.";
     }
     else if(input=="Who founded Banasthali")
     {
-        return "IBanasthali Vidyapith was founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in the year 1935. They established this esteemed institution with the vision of providing education that combines the best of Indian culture and thought with modern scientific knowledge. The founders aimed to create an environment that fosters the all-round development of students and promotes values such as simplicity and the wearing of khadi. Banasthali Vidyapith has since grown into a renowned educational institution, dedicated to the holistic development of its students. am a good! and what about you";
+        return "Banasthali Vidyapith was founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in the year 1935. They established this esteemed institution with the vision of providing education that combines the best of Indian culture and thought with modern scientific knowledge";
     }
     else if(input=="Who founded Banasthali?")
     {
-        return "Banasthali Vidyapith was founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in the year 1935. They established this esteemed institution with the vision of providing education that combines the best of Indian culture and thought with modern scientific knowledge. The founders aimed to create an environment that fosters the all-round development of students and promotes values such as simplicity and the wearing of khadi. Banasthali Vidyapith has since grown into a renowned educational institution, dedicated to the holistic development of its students.I am a good! and what about you";
+        return "Banasthali Vidyapith was founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in the year 1935. They established this esteemed institution with the vision of providing education that combines the best of Indian culture and thought with modern scientific knowledge";
     }
     else if(input=="Who founded banasthali")
     {
-        return "Banasthali Vidyapith was founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in the year 1935. They established this esteemed institution with the vision of providing education that combines the best of Indian culture and thought with modern scientific knowledge. The founders aimed to create an environment that fosters the all-round development of students and promotes values such as simplicity and the wearing of khadi. Banasthali Vidyapith has since grown into a renowned educational institution, dedicated to the holistic development of its students.I am a good! and what about you";
+        return "Banasthali Vidyapith was founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in the year 1935. They established this esteemed institution with the vision of providing education that combines the best of Indian culture and thought with modern scientific knowledge";
     }
     else if(input=="Who founded banasthali?")
     {
-        return "Banasthali Vidyapith was founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in the year 1935. They established this esteemed institution with the vision of providing education that combines the best of Indian culture and thought with modern scientific knowledge. The founders aimed to create an environment that fosters the all-round development of students and promotes values such as simplicity and the wearing of khadi. Banasthali Vidyapith has since grown into a renowned educational institution, dedicated to the holistic development of its students.I am a good! and what about you";
+        return "Banasthali Vidyapith was founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in the year 1935. They established this esteemed institution with the vision of providing education that combines the best of Indian culture and thought with modern scientific knowledge";
     }
     else if(input=="banasthali founder")
     {
-        return "Banasthali Vidyapith was founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in the year 1935. They established this esteemed institution with the vision of providing education that combines the best of Indian culture and thought with modern scientific knowledge. The founders aimed to create an environment that fosters the all-round development of students and promotes values such as simplicity and the wearing of khadi. Banasthali Vidyapith has since grown into a renowned educational institution, dedicated to the holistic development of its students.I am a good! and what about you";
+        return "Banasthali Vidyapith was founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in the year 1935. They established this esteemed institution with the vision of providing education that combines the best of Indian culture and thought with modern scientific knowledge";
     }
     else if(input=="banasthali founder?")
     {
-        return "Banasthali Vidyapith was founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in the year 1935. They established this esteemed institution with the vision of providing education that combines the best of Indian culture and thought with modern scientific knowledge. The founders aimed to create an environment that fosters the all-round development of students and promotes values such as simplicity and the wearing of khadi. Banasthali Vidyapith has since grown into a renowned educational institution, dedicated to the holistic development of its students.I am a good! and what about you";
+        return "Banasthali Vidyapith was founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in the year 1935. They established this esteemed institution with the vision of providing education that combines the best of Indian culture and thought with modern scientific knowledge";
     }
     else if(input=="Banasthali founder?")
     {
-        return "Banasthali Vidyapith was founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in the year 1935. They established this esteemed institution with the vision of providing education that combines the best of Indian culture and thought with modern scientific knowledge. The founders aimed to create an environment that fosters the all-round development of students and promotes values such as simplicity and the wearing of khadi. Banasthali Vidyapith has since grown into a renowned educational institution, dedicated to the holistic development of its students.I am a good! and what about you";
+        return "Banasthali Vidyapith was founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in the year 1935. They established this esteemed institution with the vision of providing education that combines the best of Indian culture and thought with modern scientific knowledge";
     }
     else if(input=="Banasthali founder")
     {
-        return "Banasthali Vidyapith was founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in the year 1935. They established this esteemed institution with the vision of providing education that combines the best of Indian culture and thought with modern scientific knowledge. The founders aimed to create an environment that fosters the all-round development of students and promotes values such as simplicity and the wearing of khadi. Banasthali Vidyapith has since grown into a renowned educational institution, dedicated to the holistic development of its students.I am a good! and what about you";
+        return "Banasthali Vidyapith was founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in the year 1935. They established this esteemed institution with the vision of providing education that combines the best of Indian culture and thought with modern scientific knowledge";
     }
     else if(input=="founding father of Banasthali Vidyapith")
     {
-        return "Banasthali Vidyapith was founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in the year 1935. They established this esteemed institution with the vision of providing education that combines the best of Indian culture and thought with modern scientific knowledge. The founders aimed to create an environment that fosters the all-round development of students and promotes values such as simplicity and the wearing of khadi. Banasthali Vidyapith has since grown into a renowned educational institution, dedicated to the holistic development of its students.I am a good! and what about you";
+        return "Banasthali Vidyapith was founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in the year 1935. They established this esteemed institution with the vision of providing education that combines the best of Indian culture and thought with modern scientific knowledge";
     }
     else if(input=="Founding father of Banasthali Vidyapith")
     {
-        return "Banasthali Vidyapith was founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in the year 1935. They established this esteemed institution with the vision of providing education that combines the best of Indian culture and thought with modern scientific knowledge. The founders aimed to create an environment that fosters the all-round development of students and promotes values such as simplicity and the wearing of khadi. Banasthali Vidyapith has since grown into a renowned educational institution, dedicated to the holistic development of its students.I am a good! and what about you";
+        return "Banasthali Vidyapith was founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in the year 1935. They established this esteemed institution with the vision of providing education that combines the best of Indian culture and thought with modern scientific knowledge";
     }
     else if(input=="founding father of Banasthali Vidyapith?")
     {
-        return "Banasthali Vidyapith was founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in the year 1935. They established this esteemed institution with the vision of providing education that combines the best of Indian culture and thought with modern scientific knowledge. The founders aimed to create an environment that fosters the all-round development of students and promotes values such as simplicity and the wearing of khadi. Banasthali Vidyapith has since grown into a renowned educational institution, dedicated to the holistic development of its students.I am a good! and what about you";
+        return "Banasthali Vidyapith was founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in the year 1935. They established this esteemed institution with the vision of providing education that combines the best of Indian culture and thought with modern scientific knowledge";
     }
     else if(input=="Founding father of Banasthali Vidyapith?")
     {
-        return "Banasthali Vidyapith was founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in the year 1935. They established this esteemed institution with the vision of providing education that combines the best of Indian culture and thought with modern scientific knowledge. The founders aimed to create an environment that fosters the all-round development of students and promotes values such as simplicity and the wearing of khadi. Banasthali Vidyapith has since grown into a renowned educational institution, dedicated to the holistic development of its students.I am a good! and what about you";
+        return "Banasthali Vidyapith was founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in the year 1935. They established this esteemed institution with the vision of providing education that combines the best of Indian culture and thought with modern scientific knowledge";
     }
     else if(input=="Founding father of banasthali vidyapith?")
     {
-        return "Banasthali Vidyapith was founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in the year 1935. They established this esteemed institution with the vision of providing education that combines the best of Indian culture and thought with modern scientific knowledge. The founders aimed to create an environment that fosters the all-round development of students and promotes values such as simplicity and the wearing of khadi. Banasthali Vidyapith has since grown into a renowned educational institution, dedicated to the holistic development of its students.I am a good! and what about you";
+        return "Banasthali Vidyapith was founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in the year 1935. They established this esteemed institution with the vision of providing education that combines the best of Indian culture and thought with modern scientific knowledge";
     }
     else if(input=="founding father of banasthali vidyapith")
     {
-        return "Banasthali Vidyapith was founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in the year 1935. They established this esteemed institution with the vision of providing education that combines the best of Indian culture and thought with modern scientific knowledge. The founders aimed to create an environment that fosters the all-round development of students and promotes values such as simplicity and the wearing of khadi. Banasthali Vidyapith has since grown into a renowned educational institution, dedicated to the holistic development of its students.I am a good! and what about you";
+        return "Banasthali Vidyapith was founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in the year 1935. They established this esteemed institution with the vision of providing education that combines the best of Indian culture and thought with modern scientific knowledge";
     }
     else if(input=="founding father of banasthali vidyapith?")
     {
-        return "Banasthali Vidyapith was founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in the year 1935. They established this esteemed institution with the vision of providing education that combines the best of Indian culture and thought with modern scientific knowledge. The founders aimed to create an environment that fosters the all-round development of students and promotes values such as simplicity and the wearing of khadi. Banasthali Vidyapith has since grown into a renowned educational institution, dedicated to the holistic development of its students.I am a good! and what about you";
+        return "Banasthali Vidyapith was founded by Pandit Hiralal Shastri and Smt. Ratan Shastri in the year 1935. They established this esteemed institution with the vision of providing education that combines the best of Indian culture and thought with modern scientific knowledge";
     }
     //courses provided by banasthali
     if(input=="courses provided by banasthali")
     {
-        return "Banasthali Vidyapith offers a wide range of courses in various disciplines. Some of the courses provided by Banasthali Vidyapith includes: <br> Undergraduate Programs: Banasthali Vidyapith offers undergraduate programs in fields such as Arts, Science, Commerce, Education, Fine Arts, Design, Home Science, Social Work, Physical Education, and Law. <br> Postgraduate Programs: Banasthali Vidyapith offers postgraduate programs in disciplines like Arts, Science, Commerce, Education, Fine Arts, Design, Home Science, Social Work, Physical Education, and Law. <br>Ph.D. Programs: Banasthali Vidyapith provides Ph.D. programs in various fields, including Arts, Science, Commerce, Education, Fine Arts, Design, Home Science, Social Work, Physical Education, and Law.<br> Please note that the availability of specific courses may vary, and it is advisable to visit the official website of Banasthali Vidyapith for detailed information on the courses offered, eligibility criteria, and admission process."
+        return "Banasthali Vidyapith offers a wide range of courses in various disciplines. Some of the courses provided by Banasthali Vidyapith includes:  Undergraduate Programs, Postgraduate Programs,Ph.D. Programs on various fields such as Arts, Science, Commerce, Education, Fine Arts, Design, Home Science, Social Work, Physical Education, and Law.<br> You can visit <a href='http://www.banasthali.org/banasthali/admissions/course.html' target='_blank'>courses</a>."
     }
     else if(input=="courses provided by banasthali?")
     {
-        return "Banasthali Vidyapith offers a wide range of courses in various disciplines. Some of the courses provided by Banasthali Vidyapith includes: <br> Undergraduate Programs: Banasthali Vidyapith offers undergraduate programs in fields such as Arts, Science, Commerce, Education, Fine Arts, Design, Home Science, Social Work, Physical Education, and Law. <br> Postgraduate Programs: Banasthali Vidyapith offers postgraduate programs in disciplines like Arts, Science, Commerce, Education, Fine Arts, Design, Home Science, Social Work, Physical Education, and Law. <br>Ph.D. Programs: Banasthali Vidyapith provides Ph.D. programs in various fields, including Arts, Science, Commerce, Education, Fine Arts, Design, Home Science, Social Work, Physical Education, and Law.<br> Please note that the availability of specific courses may vary, and it is advisable to visit the official website of Banasthali Vidyapith for detailed information on the courses offered, eligibility criteria, and admission process."
+        return "Banasthali Vidyapith offers a wide range of courses in various disciplines. Some of the courses provided by Banasthali Vidyapith includes:  Undergraduate Programs, Postgraduate Programs,Ph.D. Programs on various fields such as Arts, Science, Commerce, Education, Fine Arts, Design, Home Science, Social Work, Physical Education, and Law.<br> You can visit <a href='http://www.banasthali.org/banasthali/admissions/course.html' target='_blank'>courses</a>."
         
     }
     else if(input=="Courses provided by banasthali")
     {
-        return "Banasthali Vidyapith offers a wide range of courses in various disciplines. Some of the courses provided by Banasthali Vidyapith includes: <br> Undergraduate Programs: Banasthali Vidyapith offers undergraduate programs in fields such as Arts, Science, Commerce, Education, Fine Arts, Design, Home Science, Social Work, Physical Education, and Law. <br> Postgraduate Programs: Banasthali Vidyapith offers postgraduate programs in disciplines like Arts, Science, Commerce, Education, Fine Arts, Design, Home Science, Social Work, Physical Education, and Law. <br>Ph.D. Programs: Banasthali Vidyapith provides Ph.D. programs in various fields, including Arts, Science, Commerce, Education, Fine Arts, Design, Home Science, Social Work, Physical Education, and Law.<br> Please note that the availability of specific courses may vary, and it is advisable to visit the official website of Banasthali Vidyapith for detailed information on the courses offered, eligibility criteria, and admission process."
+        return "Banasthali Vidyapith offers a wide range of courses in various disciplines. Some of the courses provided by Banasthali Vidyapith includes:  Undergraduate Programs, Postgraduate Programs,Ph.D. Programs on various fields such as Arts, Science, Commerce, Education, Fine Arts, Design, Home Science, Social Work, Physical Education, and Law.<br> You can visit <a href='http://www.banasthali.org/banasthali/admissions/course.html' target='_blank'>courses</a>."
 
         
     }
     else if(input=="Courses provided by banasthali?")
     {
-        return "Banasthali Vidyapith offers a wide range of courses in various disciplines. Some of the courses provided by Banasthali Vidyapith includes: <br> Undergraduate Programs: Banasthali Vidyapith offers undergraduate programs in fields such as Arts, Science, Commerce, Education, Fine Arts, Design, Home Science, Social Work, Physical Education, and Law. <br> Postgraduate Programs: Banasthali Vidyapith offers postgraduate programs in disciplines like Arts, Science, Commerce, Education, Fine Arts, Design, Home Science, Social Work, Physical Education, and Law. <br>Ph.D. Programs: Banasthali Vidyapith provides Ph.D. programs in various fields, including Arts, Science, Commerce, Education, Fine Arts, Design, Home Science, Social Work, Physical Education, and Law.<br> Please note that the availability of specific courses may vary, and it is advisable to visit the official website of Banasthali Vidyapith for detailed information on the courses offered, eligibility criteria, and admission process."
+        return "Banasthali Vidyapith offers a wide range of courses in various disciplines. Some of the courses provided by Banasthali Vidyapith includes:  Undergraduate Programs, Postgraduate Programs,Ph.D. Programs on various fields such as Arts, Science, Commerce, Education, Fine Arts, Design, Home Science, Social Work, Physical Education, and Law.<br> You can visit <a href='http://www.banasthali.org/banasthali/admissions/course.html' target='_blank'>courses</a>."
 
     }
     else if(input=="Courses provided by Banasthali?")
     {
-        return "Banasthali Vidyapith offers a wide range of courses in various disciplines. Some of the courses provided by Banasthali Vidyapith includes: <br> Undergraduate Programs: Banasthali Vidyapith offers undergraduate programs in fields such as Arts, Science, Commerce, Education, Fine Arts, Design, Home Science, Social Work, Physical Education, and Law. <br> Postgraduate Programs: Banasthali Vidyapith offers postgraduate programs in disciplines like Arts, Science, Commerce, Education, Fine Arts, Design, Home Science, Social Work, Physical Education, and Law. <br>Ph.D. Programs: Banasthali Vidyapith provides Ph.D. programs in various fields, including Arts, Science, Commerce, Education, Fine Arts, Design, Home Science, Social Work, Physical Education, and Law.<br> Please note that the availability of specific courses may vary, and it is advisable to visit the official website of Banasthali Vidyapith for detailed information on the courses offered, eligibility criteria, and admission process."
+        return "Banasthali Vidyapith offers a wide range of courses in various disciplines. Some of the courses provided by Banasthali Vidyapith includes:  Undergraduate Programs, Postgraduate Programs,Ph.D. Programs on various fields such as Arts, Science, Commerce, Education, Fine Arts, Design, Home Science, Social Work, Physical Education, and Law.<br> You can visit <a href='http://www.banasthali.org/banasthali/admissions/course.html' target='_blank'>courses</a>."
 
     }
     else if(input=="Courses provided by Banasthali")
     {
-        return "Banasthali Vidyapith offers a wide range of courses in various disciplines. Some of the courses provided by Banasthali Vidyapith includes: <br> Undergraduate Programs: Banasthali Vidyapith offers undergraduate programs in fields such as Arts, Science, Commerce, Education, Fine Arts, Design, Home Science, Social Work, Physical Education, and Law. <br> Postgraduate Programs: Banasthali Vidyapith offers postgraduate programs in disciplines like Arts, Science, Commerce, Education, Fine Arts, Design, Home Science, Social Work, Physical Education, and Law. <br>Ph.D. Programs: Banasthali Vidyapith provides Ph.D. programs in various fields, including Arts, Science, Commerce, Education, Fine Arts, Design, Home Science, Social Work, Physical Education, and Law.<br> Please note that the availability of specific courses may vary, and it is advisable to visit the official website of Banasthali Vidyapith for detailed information on the courses offered, eligibility criteria, and admission process."
+        return "Banasthali Vidyapith offers a wide range of courses in various disciplines. Some of the courses provided by Banasthali Vidyapith includes:  Undergraduate Programs, Postgraduate Programs,Ph.D. Programs on various fields such as Arts, Science, Commerce, Education, Fine Arts, Design, Home Science, Social Work, Physical Education, and Law.<br> You can visit <a href='http://www.banasthali.org/banasthali/admissions/course.html' target='_blank'>courses</a>."
 
     }
     else if(input=="courses provided by Banasthali")
     {
-        return "Banasthali Vidyapith offers a wide range of courses in various disciplines. Some of the courses provided by Banasthali Vidyapith includes: <br> Undergraduate Programs: Banasthali Vidyapith offers undergraduate programs in fields such as Arts, Science, Commerce, Education, Fine Arts, Design, Home Science, Social Work, Physical Education, and Law. <br> Postgraduate Programs: Banasthali Vidyapith offers postgraduate programs in disciplines like Arts, Science, Commerce, Education, Fine Arts, Design, Home Science, Social Work, Physical Education, and Law. <br>Ph.D. Programs: Banasthali Vidyapith provides Ph.D. programs in various fields, including Arts, Science, Commerce, Education, Fine Arts, Design, Home Science, Social Work, Physical Education, and Law.<br> Please note that the availability of specific courses may vary, and it is advisable to visit the official website of Banasthali Vidyapith for detailed information on the courses offered, eligibility criteria, and admission process."
+        return "Banasthali Vidyapith offers a wide range of courses in various disciplines. Some of the courses provided by Banasthali Vidyapith includes:  Undergraduate Programs, Postgraduate Programs,Ph.D. Programs on various fields such as Arts, Science, Commerce, Education, Fine Arts, Design, Home Science, Social Work, Physical Education, and Law.<br> You can visit <a href='http://www.banasthali.org/banasthali/admissions/course.html' target='_blank'>courses</a>."
 
     }
     else if(input=="courses provided by Banasthali?")
     {
-        return "Banasthali Vidyapith offers a wide range of courses in various disciplines. Some of the courses provided by Banasthali Vidyapith includes: <br> Undergraduate Programs: Banasthali Vidyapith offers undergraduate programs in fields such as Arts, Science, Commerce, Education, Fine Arts, Design, Home Science, Social Work, Physical Education, and Law. <br> Postgraduate Programs: Banasthali Vidyapith offers postgraduate programs in disciplines like Arts, Science, Commerce, Education, Fine Arts, Design, Home Science, Social Work, Physical Education, and Law. <br>Ph.D. Programs: Banasthali Vidyapith provides Ph.D. programs in various fields, including Arts, Science, Commerce, Education, Fine Arts, Design, Home Science, Social Work, Physical Education, and Law.<br> Please note that the availability of specific courses may vary, and it is advisable to visit the official website of Banasthali Vidyapith for detailed information on the courses offered, eligibility criteria, and admission process."
+        return "Banasthali Vidyapith offers a wide range of courses in various disciplines. Some of the courses provided by Banasthali Vidyapith includes:  Undergraduate Programs, Postgraduate Programs,Ph.D. Programs on various fields such as Arts, Science, Commerce, Education, Fine Arts, Design, Home Science, Social Work, Physical Education, and Law.<br> You can visit <a href='http://www.banasthali.org/banasthali/admissions/course.html' target='_blank'>courses</a>."
 
     }
     //is this only for women
@@ -420,35 +471,35 @@ function getBotResponse(input) {
     //five fold educ/panchamuki siksha
     if(input=="five fold education")
     {
-        return "Panchmukhi Shiksha is a concept followed at Banasthali Vidyapith that focuses on the all-round development of an individual's personality. It emphasizes five aspects of education, represented by the term Panchmukhi, which means five-faced in Hindi. These five aspects include physical, practical, aesthetic, intellectual, and moral/spiritual development. The aim is to provide a holistic education that nurtures not only academic knowledge but also physical fitness, practical skills, artistic expression, critical thinking, and ethical values. Panchmukhi Shiksha at Banasthali Vidyapith ensures that students receive a comprehensive education that prepares them for a well-rounded and meaningful life."
+        return "Panchmukhi Shiksha is a concept followed at Banasthali Vidyapith that focuses on the all-round development of an individual's personality. It emphasizes five aspects of education, represented by the term Panchmukhi, which means five-faced in Hindi. These five aspects include physical, practical, aesthetic, intellectual, and moral/spiritual development. For more details you can visit <a href='you can visit <a href='http://www.banasthali.org/banasthali/wcms/en/home/' target='_blank'>Banasthali Vidyapith</a>.' target='_blank'>Banasthali Vidyapith</a>."
     }
     else if(input=="Five fold education")
     {
-        return "Panchmukhi Shiksha is a concept followed at Banasthali Vidyapith that focuses on the all-round development of an individual's personality. It emphasizes five aspects of education, represented by the term Panchmukhi, which means five-faced in Hindi. These five aspects include physical, practical, aesthetic, intellectual, and moral/spiritual development. The aim is to provide a holistic education that nurtures not only academic knowledge but also physical fitness, practical skills, artistic expression, critical thinking, and ethical values. Panchmukhi Shiksha at Banasthali Vidyapith ensures that students receive a comprehensive education that prepares them for a well-rounded and meaningful life."
+        return "Panchmukhi Shiksha is a concept followed at Banasthali Vidyapith that focuses on the all-round development of an individual's personality. It emphasizes five aspects of education, represented by the term Panchmukhi, which means five-faced in Hindi. These five aspects include physical, practical, aesthetic, intellectual, and moral/spiritual development. For more details you can visit <a href='you can visit <a href='http://www.banasthali.org/banasthali/wcms/en/home/' target='_blank'>Banasthali Vidyapith</a>.' target='_blank'>Banasthali Vidyapith</a>."
     }
     else if(input=="Five Fold education")
     {
-        return "Panchmukhi Shiksha is a concept followed at Banasthali Vidyapith that focuses on the all-round development of an individual's personality. It emphasizes five aspects of education, represented by the term Panchmukhi, which means five-faced in Hindi. These five aspects include physical, practical, aesthetic, intellectual, and moral/spiritual development. The aim is to provide a holistic education that nurtures not only academic knowledge but also physical fitness, practical skills, artistic expression, critical thinking, and ethical values. Panchmukhi Shiksha at Banasthali Vidyapith ensures that students receive a comprehensive education that prepares them for a well-rounded and meaningful life."
+        return "Panchmukhi Shiksha is a concept followed at Banasthali Vidyapith that focuses on the all-round development of an individual's personality. It emphasizes five aspects of education, represented by the term Panchmukhi, which means five-faced in Hindi. These five aspects include physical, practical, aesthetic, intellectual, and moral/spiritual development. For more details you can visit <a href='you can visit <a href='http://www.banasthali.org/banasthali/wcms/en/home/' target='_blank'>Banasthali Vidyapith</a>.' target='_blank'>Banasthali Vidyapith</a>."
     }
     else if(input=="Five Fold Education")
     {
-        return "Panchmukhi Shiksha is a concept followed at Banasthali Vidyapith that focuses on the all-round development of an individual's personality. It emphasizes five aspects of education, represented by the term Panchmukhi, which means five-faced in Hindi. These five aspects include physical, practical, aesthetic, intellectual, and moral/spiritual development. The aim is to provide a holistic education that nurtures not only academic knowledge but also physical fitness, practical skills, artistic expression, critical thinking, and ethical values. Panchmukhi Shiksha at Banasthali Vidyapith ensures that students receive a comprehensive education that prepares them for a well-rounded and meaningful life."
+        return "Panchmukhi Shiksha is a concept followed at Banasthali Vidyapith that focuses on the all-round development of an individual's personality. It emphasizes five aspects of education, represented by the term Panchmukhi, which means five-faced in Hindi. These five aspects include physical, practical, aesthetic, intellectual, and moral/spiritual development. For more details you can visit <a href='you can visit <a href='http://www.banasthali.org/banasthali/wcms/en/home/' target='_blank'>Banasthali Vidyapith</a>.' target='_blank'>Banasthali Vidyapith</a>."
     }
     else if(input=="panchamuki siksha")
     {
-        return "Panchmukhi Shiksha is a concept followed at Banasthali Vidyapith that focuses on the all-round development of an individual's personality. It emphasizes five aspects of education, represented by the term Panchmukhi, which means five-faced in Hindi. These five aspects include physical, practical, aesthetic, intellectual, and moral/spiritual development. The aim is to provide a holistic education that nurtures not only academic knowledge but also physical fitness, practical skills, artistic expression, critical thinking, and ethical values. Panchmukhi Shiksha at Banasthali Vidyapith ensures that students receive a comprehensive education that prepares them for a well-rounded and meaningful life."
+        return "Panchmukhi Shiksha is a concept followed at Banasthali Vidyapith that focuses on the all-round development of an individual's personality. It emphasizes five aspects of education, represented by the term Panchmukhi, which means five-faced in Hindi. These five aspects include physical, practical, aesthetic, intellectual, and moral/spiritual development. For more details you can visit <a href='you can visit <a href='http://www.banasthali.org/banasthali/wcms/en/home/' target='_blank'>Banasthali Vidyapith</a>.' target='_blank'>Banasthali Vidyapith</a>."
 
     }
     else if(input=="Panchamuki siksha")
     {
-        return "Panchmukhi Shiksha is a concept followed at Banasthali Vidyapith that focuses on the all-round development of an individual's personality. It emphasizes five aspects of education, represented by the term Panchmukhi, which means five-faced in Hindi. These five aspects include physical, practical, aesthetic, intellectual, and moral/spiritual development. The aim is to provide a holistic education that nurtures not only academic knowledge but also physical fitness, practical skills, artistic expression, critical thinking, and ethical values. Panchmukhi Shiksha at Banasthali Vidyapith ensures that students receive a comprehensive education that prepares them for a well-rounded and meaningful life."
+        return "Panchmukhi Shiksha is a concept followed at Banasthali Vidyapith that focuses on the all-round development of an individual's personality. It emphasizes five aspects of education, represented by the term Panchmukhi, which means five-faced in Hindi. These five aspects include physical, practical, aesthetic, intellectual, and moral/spiritual development. For more details you can visit <a href='you can visit <a href='http://www.banasthali.org/banasthali/wcms/en/home/' target='_blank'>Banasthali Vidyapith</a>.' target='_blank'>Banasthali Vidyapith</a>."
 
     }
     else if(input=="Panchamuki Siksha")
     {
-        return "Panchmukhi Shiksha is a concept followed at Banasthali Vidyapith that focuses on the all-round development of an individual's personality. It emphasizes five aspects of education, represented by the term Panchmukhi, which means five-faced in Hindi. These five aspects include physical, practical, aesthetic, intellectual, and moral/spiritual development. The aim is to provide a holistic education that nurtures not only academic knowledge but also physical fitness, practical skills, artistic expression, critical thinking, and ethical values. Panchmukhi Shiksha at Banasthali Vidyapith ensures that students receive a comprehensive education that prepares them for a well-rounded and meaningful life."
-
+        return "Panchmukhi Shiksha is a concept followed at Banasthali Vidyapith that focuses on the all-round development of an individual's personality. It emphasizes five aspects of education, represented by the term Panchmukhi, which means five-faced in Hindi. These five aspects include physical, practical, aesthetic, intellectual, and moral/spiritual development. For more details you can visit <a href='you can visit <a href='http://www.banasthali.org/banasthali/wcms/en/home/' target='_blank'>Banasthali Vidyapith</a>.' target='_blank'>Banasthali Vidyapith</a>."
     }
+    
 
     // Simple responses
     if (input == "hello") {
